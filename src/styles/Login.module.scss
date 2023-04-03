@@ -4,6 +4,11 @@
     grid-template-columns: 0.8fr 1fr;
     grid-template-areas: "templeat login";
 }
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .templeat {
     background-image: url("../images/login.png");
@@ -31,9 +36,21 @@
     background-color: #433f5a;
 }
 
+.button{
+    width: 150px;
+    height: 30px;
+    color: #FFFFFF;
+    background: #FF6442;
+    border: none;
+    border-radius: 15px;
+}
+
 .card{
-    width: 600px;
-    height: 600px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
     border-radius: 25px;
     background-color: #FFFFFF;
 }

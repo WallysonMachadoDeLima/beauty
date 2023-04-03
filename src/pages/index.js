@@ -1,5 +1,8 @@
-import Head from "next/head";
-import Image from "next/image";
+import * as React from 'react';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import Autopcomplit from "../components/autocomplit/index";
+import TextField from "../components/textfield/index";
 import styles from "@/styles/Login.module.scss";
 
 export default function Home() {
@@ -15,7 +18,20 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.login}>
-          <div className={styles.card}> a</div>
+          <div className={styles.card}> 
+          <div>
+            <h1>Lorem ipsum</h1>
+            <div className={styles.display}>
+            <Autopcomplit/>
+            <TextField/>
+            </div>
+            <button className={styles.button}>Acessar</button>
+            <div>
+            <Button variant="text">Sou profissional da area!</Button>
+            </div>
+
+          </div>
+          </div>
         </div>
       </div>
     </>
