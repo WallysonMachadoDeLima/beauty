@@ -4,11 +4,6 @@
     grid-template-columns: 0.8fr 1fr;
     grid-template-areas: "templeat login";
 }
-.display{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .templeat {
     background-image: url("../images/login.png");
@@ -26,6 +21,38 @@
     height: 100vh;
     width: 100%;
     background: rgba(53, 46, 90, 0.5);
+
+    .div{
+        width: 550px;
+        height: 300px;
+        background: rgba(170, 166, 192, 0.5);
+        border-radius: 15px;
+    
+        .titulo{
+            padding: 20px;
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 76px;
+            line-height: 87px;
+        
+            color: #FFFFFF;
+            .colorpalavra{
+                color: #FF9E2D;
+            }
+        }
+        .subtitulo{
+            padding: 15px;
+        
+            font-family: 'Arial';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+        
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
 }
 
 .login {
@@ -36,53 +63,48 @@
     background-color: #433f5a;
 }
 
-.button{
-    width: 150px;
-    height: 30px;
-    color: #FFFFFF;
-    background: #FF6442;
-    border: none;
-    border-radius: 15px;
-}
-
 .card{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     width: 500px;
     height: 500px;
     border-radius: 25px;
     background-color: #FFFFFF;
-}
-
-.div{
-    width: 550px;
-    height: 300px;
-    background: rgba(170, 166, 192, 0.5);
-    border-radius: 15px;
-}
-.titulo{
-    padding: 20px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 87px;
-
-    color: #FFFFFF;
-    .colorpalavra{
-        color: #FF9E2D;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    .a{
+        font-family: 'Arial, normal';
+        font-size: 24px;
+        line-height: 74px;
+        color: #060027;
     }
-}
-
-.subtitulo{
-    padding: 15px;
-
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 30px;
-
-    color: rgba(255, 255, 255, 0.8);
+    .b{
+        height: 56px;
+        display: flex;
+    }
+    .c{
+        text-align: center;
+        .btn{
+            width: 150px;
+            height: 30px;
+            color: #FFFFFF;
+            background: #FF6442;
+            border: none;
+            border-radius: 15px;
+        }
+    }
+    .d{
+        text-align: center;
+        .txt{
+            font-family: 'Arial';
+            font-style: normal;
+            font-size: 16px;
+            line-height: 18px;
+            text-decoration-line: underline;
+            color: #060027;
+        }
+        .btn_link{
+            border: none;
+            background-color: transparent;
+        }
+    }
 }

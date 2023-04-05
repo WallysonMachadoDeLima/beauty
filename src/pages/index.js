@@ -19,18 +19,19 @@ export default function Home() {
         </div>
         <div className={styles.login}>
           <div className={styles.card}> 
-          <div>
-            <h1>Lorem ipsum</h1>
-            <div className={styles.display}>
-            <Autopcomplit/>
-            <TextField/>
+            <div className={styles.a} >
+              <h1>Lorem ipsum</h1>
             </div>
-            <button className={styles.button}>Acessar</button>
-            <div>
-            <Button variant="text">Sou profissional da area!</Button>
+            <div className={styles.b}>
+              <Autopcomplit/>
+              <TextField/>
             </div>
-
-          </div>
+            <div className={styles.c}>
+              <button className={styles.btn}>Acessar</button>
+            </div>
+            <div className={styles.d}>
+              <button className={styles.btn_link}><a className={styles.txt}>Sou profissional da area!</a></button>
+            </div>
           </div>
         </div>
       </div>
