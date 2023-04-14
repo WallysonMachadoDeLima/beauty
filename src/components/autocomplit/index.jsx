@@ -8,6 +8,7 @@ export default function CountrySelect() {
     <Autocomplete
       id="country-select-demo"
       clearIcon={null}
+      defaultValue={countries[29]}
       sx={{ 
         width: 105, 
     }}

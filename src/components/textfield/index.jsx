@@ -30,7 +30,7 @@ TextMaskCustom.propTypes = {
 
 export default function FormattedInputs() {
   const [values, setValues] = React.useState({
-    textmask: '(10) 00000-0000',
+    textmask: '(00) 00000-0000',
   });
 
   const handleChange = (event) => {
